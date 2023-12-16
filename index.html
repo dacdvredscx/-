@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Шрифты Inter-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=31db1c51-29a3-4640-9e59-9c19714fd7b0&lang=ru_RU" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сервис Пак</title>
+</head>
+<body>
+    <header>
+        <div class="header-container"> <!--Header-->
+            <div class="leftside"> <!--Левая часть Header'a с логотипом-->
+              <img id="logo" src="media/logo_new.svg" alt="Логотип недоступен"> <!--Логотип-->
+            </div>
+            <div class="center"> <!--navbar-->
+                <a class="menu-item" href="#aboutus">О нас</a>
+                <a class="menu-item" href="#postavka">Изготовление и поставка</a>
+                <a class="menu-item" href="#map">Контакты</a>
+            </div>
+            <div class="rightside"> <!--Правая часть Header'a с контактами-->
+                <h1>+7 (3522) 44-41-42</h1>
+                <h1>Курган, ​проспект Конституции, 29в</h1>   
+            </div>
+        </div>
+    </header>
+    <main> <!--Основная часть сайта-->
+        <div class="video-container"> <!--Контейнер с видео-->
+          <video autoplay loop muted> <!--Видео-->
+             <source src="media/videomp4cutted.mp4" alt="Your browser does not support the video tag."> 
+          </video>
+          <div class="text-overlay"> <!--Текст над видео-->
+            <h1 class="head">Типография Сервис Пак</h1>
+          </div>
+        </div>
+        <div class="about-container"> <!--О Флексографической печати-->
+            <div class="text"> <!--Текст о Флексографической печати-->
+                <h1 class="head-about-flex">Флексографическая печать</h1><br> 
+                <p class="text-about-flex">Флексографическая печать - это специальный способ печати, при котором<br>
+                    краска передаётся на поверхность печатного материала с помощью гибкой<br>
+                    резино-полимерной печатной формы.<br><br>
+
+                    Флексографическая печать широко применяется в упаковочной<br>
+                    промышленности и рекламной индустрии благодаря своей высокой<br>
+                    производительности, быстрому набору и возможности применения<br>
+                    различных типов чернил.</p>
+            </div>
+        </div>
+       <div class="about-company" id="aboutus"> <!--О компании-->  
+            <h1 class="head-about-company">О нас</h1> <!--Заголовок блока О компании-->  
+            <p class="text-about-company">Типография СервисПак занимается изготовлением и поставкой упаковочных<br>материалов с флексографической печатью в рулонах:</p>
+                <ul class="text-about-company-ul"> 
+                    <li class="text-about-company">пленки однослойные и ламинированные</li>
+                    <li class="text-about-company">фольга кашированная</li>
+                    <li class="text-about-company">пергамент</li>
+                    <li class="text-about-company">пленка «молочная», «пельменная» и т. д.</li>
+                </ul><br>
+                <p class="text-about-company">Помимо этого занимаемся изготовлением самоклеящихся этикеток.</p>
+       </div>
+       <div class="about-machines"> <!--Парк печатных машин-->
+            <h1 class="head-about-machines">Парк печатных машин</h1> <!--Заголовок блока Парк печатных машин-->  
+            <div class="list-of-items"> <!--Список элементов-->  
+                <div class="item"> <!--Элемент 1-->  
+                   <img src="media/pechatnaya1.jfif" alt="Изображение недоступно"> <!--Фото Печатные машины-->  
+                    <h2 class="text-about-machines">Печатные машины, 4 шт.</h2>
+                </div>
+                <div class="item"> <!--Элемент 2-->
+                    <img src="media/babinorez.png" alt="Изображение недоступно"> <!--Фото Бабинорез-->  
+                    <h2 class="text-about-machines">Бабинорезы, 4 шт.</h2>
+                </div>
+                <div class="item"> <!--Элемент 3-->
+                    <img src="media/laminator.jfif" alt="Изображение недоступно"> <!--Фото Ламинатор-->  
+                    <h2 class="text-about-machines">Ламинатор, 1 шт.</h2>
+                </div>
+            </div>
+       </div>
+       <div class="our-partners"> <!--Наши партнеры-->
+            <h1 class="head-our-partners">Наши партнеры</h1> <!--Заголовок Наши партнеры-->
+            <h2 class="littlehead-our-partners">Если вы заинтересованы в том, чтобы стать нашим
+            <br>партнером, пожалуйста, напишите нам</h2>
+        </div>
+
+        <div class="container-slider"> <!--Слайдер-->
+          <div class="carousel">
+              <div class="nav nav-left"> <!--Левая стрелочка-->
+                  <span>&#8250;</span>
+              </div>
+              <div class="carousel-content">
+                  <div class="slide slide-1"> <!--Страница 1-->
+                      <img class="pivo_small" src="media/pivo_logo.png" alt="Изображение недоступно">
+                      <img src="media/veles_logo.png" alt="Изображение недоступно">
+                      <img src="media/hlobokombinat_logo.png" alt="Изображение недоступно">
+                      <img src="media/metropolis_logo.png" alt="Изображение недоступно">
+                  </div>
+                  <div class="slide slide-2"> <!--Страница 2-->
+                    <img src="media/sibholod_logo.png" alt="Изображение недоступно">
+                    <img src="media/molokozau_logo.png" alt="Изображение недоступно">
+                    <img src="media/tyumenmol_logo.png" alt="Изображение недоступно">
+                    <img src="media/borovskaya_logo.jpg" alt="Изображение недоступно">
+                  </div>
+                  <div class="slide slide-3"> <!--Страница 3-->
+                    <img src="media/zolotielyga_logo.png" alt="Изображение недоступно">
+                    <img src="media/tobolskoemol_logo.svg" alt="Изображение недоступно">
+                    <img src="media/sdobushka_logo.png" alt="Изображение недоступно">
+                    <img src="media/hlebniydom_logo.png" alt="Изображение недоступно">
+                  </div>
+              </div>
+                <div class="nav nav-right"> <!--Правая стрелочка-->
+                    <span>&#8250;</span>
+                </div>
+          </div>
+      </div>
+        <div class="how-we-work" id="postavka"> <!--Как мы работаем-->
+            <h1 class="head-how-we-work">Как мы работаем?</h1> <!--Заголовок Как мы работаем-->
+            <div class="item-how-wrapper">
+              <div class="item-how-we-work">
+                <div class="leftside-item"> <!--Первый элемент-->
+                  <div class="circle"> <!--Круг с цифрой-->
+                    <span class="number">1</span>
+                  </div>
+                </div>
+                <div class="rightside-item">
+                  <h1 class="littlehead-how-we-work">Контакт</h1> <!--Заголовок элемента-->
+                  <p class="text-how-we-work">
+                    Вы можете связаться с нами по телефону или через электронную<br> <!--Текст элемента-->
+                    почту.
+                  </p>
+                </div>
+              </div>
+
+              <div class="item-how-we-work"> <!--Второй элемент-->
+                <div class="leftside-item">
+                  <div class="circle"> <!--Круг с цифрой-->
+                    <span class="number">2</span>
+                  </div>
+                </div>
+                <div class="rightside-item">
+                  <h1 class="littlehead-how-we-work">Дизайн и сроки поставки</h1> <!--Заголовок элемента-->
+                  <p class="text-how-we-work">
+                    После обсуждения требований, мы сможем приступить к разработке<br> <!--Текст элемента-->
+                    дизайна вашего заказа.
+                  </p>
+                </div>
+              </div>
+      
+              <div class="item-how-we-work"> <!--Третий элемент-->
+                <div class="leftside-item">
+                  <div class="circle"> <!--Круг с цифрой-->
+                    <span class="number">3</span>
+                  </div>
+                </div>
+                <div class="rightside-item">
+                  <h1 class="littlehead-how-we-work">Договор</h1> <!--Заголовок элемента-->
+                  <p class="text-how-we-work">
+                    После утверждения дизайна и согласования сроков выполнения, <br> <!--Текст элемента-->
+                    мы предоставим вам договор.
+                  </p>
+                </div>
+              </div>
+      
+              <div class="item-how-we-work"> <!--Четвертый элемент-->
+                <div class="leftside-item">
+                  <div class="circle"> <!--Круг с цифрой-->
+                    <span class="number">4</span>
+                  </div>
+                </div>
+                <div class="rightside-item">
+                  <h1 class="littlehead-how-we-work">Доставка</h1> <!--Заголовок элемента-->
+                  <p class="text-how-we-work">
+                    Если вам требуется доставка готового заказа, мы можем предоставить<br> <!--Текст элемента-->
+                    такую услугу.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="porfolio-container"> <!--Портфолио-->
+            <h1 class="head-porfolio">Портфолио</h1> <!--Заголовок Портфолио-->
+            <div class="item-porfolio-wrapper">
+                <div class="item-line"> <!--Первая строка элементов Портфолио-->
+                    <img src="media/tvorog_small.png" class="img-small" alt="Изображение недоступно">
+                    <img src="media/pivo_big.png" class="img-big" alt="Изображение недоступно">
+                    <img src="media/moloko_small.png" class="img-small" alt="Изображение недоступно">
+                </div>
+
+                <div class="item-line"> <!--Вторая строка элементов Портфолио-->
+                    <img src="media/veles_small.png" class="img-small" alt="Изображение недоступно">
+                    <img src="media/315_big.png" class="img-big" alt="Изображение недоступно">
+                    <img src="media/zolotie_small.png" class="img-small" alt="Изображение недоступно">
+                </div>
+
+                <div class="item-line"> <!--Третья строка элементов Портфолио-->
+                    <img src="media/ravis_small.png" class="img-small" alt="Изображение недоступно">
+                    <img src="media/spirinskie_big.svg" class="img-big" alt="Изображение недоступно">
+                    <img src="media/maslo_small.png" class="img-small" alt="Изображение недоступно">
+                </div>
+
+                <div class="item-line"> <!--Четвертая строка элементов Портфолио-->
+                    <img src="media/bulochka_small.svg" class="img-small" alt="Изображение недоступно">
+                    <img src="media/yalutorovskiy_big.svg" class="img-big" alt="Изображение недоступно">
+                    <img src="media/belayakorova_small.svg" class="img-small" alt="Изображение недоступно">
+                </div>
+
+                <div class="item-line"> <!--Пятая строка элементов Портфолио-->
+                    <img src="media/pichugino_small.png" class="img-small" alt="Изображение недоступно">
+                    <img src="media/kvas_big.png" class="img-big" alt="Изображение недоступно">
+                    <img src="media/osipova_small.png" class="img-small" alt="Изображение недоступно">
+                </div>
+            </div>
+          </div>
+      </main>
+      <footer>
+        <!--<div class="map-container" id="contacts"> Карта
+          <img src="media/map.PNG" style="width: 100%;" alt="Изображение недоступно"> <!--Карта-->
+           <!-- <div class="text-overlay-map"> <!--Текст на карте-->
+             <!-- <h1 class="head2">ООО СЕРВИС ПАК</h1> <br> <!--Заголовок-->
+            <!--  <h1 class="head4">+7 (3522) 44-41-42</h1>-->
+           <!--   <h1 class="head4">444142@mail.ru</h1>-->  
+           <!--   <h1 class="head4">Курган, ​проспект Конституции, 29в</h1><br>-->
+           <!--  </div>-->
+
+
+
+
+    
+
+           <div id="map" class="map-container" style="width: 100%; height: 600px; ">
+         <div class="text-overlay-map"> <!--Текст на карте-->
+          <h1 class="head2">ООО СЕРВИС ПАК</h1> <br> <!--Заголовок-->
+          <h1 class="head4">+7 (3522) 44-41-42</h1>
+          <h1 class="head4">444142@mail.ru</h1> 
+          <h1 class="head4">Курган, ​проспект Конституции, 29в</h1><br>
+           </div>
+          
+          </div>
+
+           <script type="text/javascript">
+               ymaps.ready(init);
+           
+               function init() {
+                   var myMap = new ymaps.Map("map", {
+                       center: [55.4063430, 65.2341379],
+                       zoom: 14,
+                       controls: [] // Disable default controls
+                   });
+           
+                   var myPlacemark = new ymaps.Placemark([55.4063430, 65.2341379], {}, {
+                       preset: 'islands#redDotIcon'
+                   });
+           
+                   myMap.geoObjects.add(myPlacemark);
+               }
+           </script>
+      </footer>
+      <script src="js/js.js"></script> <!--Скрипт-->
+</body>
+</html>
